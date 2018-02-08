@@ -1,4 +1,4 @@
-    prod-prop-1:
+  prod-prop-1:
     default: prod overridable default
     required: false
     secured: false

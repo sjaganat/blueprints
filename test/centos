@@ -1,0 +1,20 @@
+t with space:
+    default: spaces are here
+    required: true
+    secured: false
+    visible: true
+  test-withDash:
+    default: blah blah
+    required: false
+    secured: false
+    visible: false
+  test  custom 1:
+    default: prod  overridable
+    required: false
+    secured: false
+    visible: false
+  test encrypted:
+    default: 'test secured prop'
+    required: false
+    secured: true
+visible: false

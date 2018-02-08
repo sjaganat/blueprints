@@ -1,30 +1,32 @@
+description: blue description v1.0
   prod-prop-1:
     default: prod overridable default
     required: false
     secured: false
     visible: false
-  prod enc show:
-    default: 'myPassword'
-    required: true
-    secured: true
-    visible: true
-  prod encrypted:
-    default: 'defaultEncrypted'
-    required: false
-    secured: true
-    visible: false
   prod show:
-    default: demo show
+    default: demo show for prod
     required: true
     secured: false
     visible: true
-  prod-whatever:
-    default: a prod whatever field
+  Prod-Selva:
+    default: selva prod
     required: true
     secured: false
     visible: true
-  DEMO-For-marshall:
-    default: a blah blah
-    required: true
-    secured: false
-    visible: true
+      demo2:
+        default: demo2-value
+        required: false
+        secured: false
+        visible: false
+      prod1:
+        default: demo1-value
+        required: false
+        secured: false
+        visible: false
+      description: this is a test for the DEMO v1.0
+      source_machine_name:
+        fixed: WebTinyCentOS65x86
+    propertyGroups:
+    - prodtest
+    - ContainerHostPropertiesWithPassword

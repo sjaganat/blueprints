@@ -26,7 +26,7 @@ description: blue description v1.0
         visible: false
       description: this is a test for the DEMO v1.0
       source_machine_name:
-        fixed: WebTinyCentOS65x86
+        fixed: WebTinyCentOS
     propertyGroups:
     - prodtest
     - ContainerHostPropertiesWithPassword

@@ -1,4 +1,4 @@
-t with space:
+test with space:
     default: spaces are here
     required: true
     secured: false

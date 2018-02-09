@@ -33,10 +33,6 @@
     required: true
     secured: false
     visible: true
-components:
-  centos:
-    type: Infrastructure.CatalogItem.Machine.Virtual.vSphere
-    data:
       demo1:
         default: demo1-prod
         required: false

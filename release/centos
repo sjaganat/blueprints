@@ -1,3 +1,4 @@
+description: blue description v1.0
   prod-prop-1:
     default: prod overridable default
     required: false
@@ -33,9 +34,3 @@
     required: true
     secured: false
     visible: true
-      demo1:
-        default: demo1-prod
-        required: false
-        secured: false
-        visible: false
-      description: this is a test for the DEMO v1.0

@@ -33,13 +33,3 @@
     required: true
     secured: false
     visible: true
-components:
-  centos:
-    type: Infrastructure.CatalogItem.Machine.Virtual.vSphere
-    data:
-      demo1:
-        default: demo1-value
-        required: false
-        secured: false
-        visible: false
-      description: this is a test for the DEMO v1.0

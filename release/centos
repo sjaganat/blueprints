@@ -38,7 +38,7 @@ components:
     type: Infrastructure.CatalogItem.Machine.Virtual.vSphere
     data:
       demo1:
-        default: demo1-value
+        default: demo1-prod
         required: false
         secured: false
         visible: false

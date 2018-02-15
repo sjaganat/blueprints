@@ -1,4 +1,4 @@
-description: blue descriptoin v1.1
+description: blue description v1.1
   prod-prop-1:
     default: prod overridable default
     required: false
@@ -37,12 +37,7 @@ description: blue descriptoin v1.1
 components:
     data:
       demo1:
-        default: demo1-value
-        required: false
-        secured: false
-        visible: false
-      demo1:
-        default: demo1-value
+        default: demo1-prod
         required: false
         secured: false
         visible: false

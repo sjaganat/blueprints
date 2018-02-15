@@ -43,7 +43,7 @@ components:
         visible: false
       description: this is a test for the DEMO v1.1
       source_machine_name:
-        fixed: WebTinyCentOS65x86
+        fixed: Linux Template
     propertyGroups:
     - Prod
 

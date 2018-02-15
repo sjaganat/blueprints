@@ -50,5 +50,5 @@ components:
       source_machine_name:
         fixed: WebTinyCentOS65x86
     propertyGroups:
-    - Prod
+    - Certificate
 
